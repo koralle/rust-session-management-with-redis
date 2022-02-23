@@ -1,0 +1,18 @@
+[package]
+name = "rust-session-management-with-redis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+anyhow = "1.0.54"
+redis_rs = "0.9.0"
+rstest = "0.12.0"
+serde = { version = "1.0.136", features = ["derive"] }
+serde_json = "1.0.79"
+speculate = "0.1.2"
+thiserror = "1.0.30"
+tracing = "0.1.31"
+uuid = { version = "0.8.2", features = ["v4", "serde"] }
