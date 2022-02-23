@@ -1,0 +1,16 @@
+[package]
+name = "rust-session-management-with-redis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.54"
+axum = { version = "0.4.6", features = ["headers"] }
+redis_rs = "0.9.0"
+rstest = "0.12.0"
+serde = { version = "1.0.136", features = ["derive"] }
+speculate = "0.1.2"
+tokio = { version = "1.17.0", features = ["full"] }
+uuid = { version = "0.8.2", features = ["v4", "serde"] }
